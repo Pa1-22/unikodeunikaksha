@@ -1,0 +1,49 @@
+#addition and difference
+a=int(input())
+b=int(input())
+c=a+b
+d=a-b
+print(c)
+print(d)
+
+#product and division
+a=int(input())
+b=int(input())
+c=a*b
+d=a//b
+e=a%b
+print(c)
+print(d)
+print(e)
+
+#swapping of two numbers
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+
+#swapping without third variable
+a=int(input())
+b=int(input())
+a,b=b,a
+print(a)
+print(b)
+
+#average calculation
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+avg=float(a+b+c+d+e)//5
+print("%.2f"% avg)
+
+
+
+
+
+
