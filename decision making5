@@ -1,0 +1,71 @@
+#intersection of a circle
+import math
+x1=int(input())
+x2=int(input())
+r1=int(input())
+y1=int(input())
+y2=int(input())
+r2=int(input())
+a=(x2-x1)**2
+b=(y2-y1)**2
+c=a+b
+d=math.sqrt(c)
+R=r1+r2
+if d==R:
+    print("The circles are tangential")
+elif d<R:
+    print("The circles overlap")
+else:
+    print("The circles do not overlap")
+
+    
+#Microwave Oven
+
+A microwave oven manufacturer recommends that when heating two items, add 50% to the heating time, and when heating three items double the heating time. Heating more than three items at once is not recommended. Write a program that asks the user for the number of items and the single-item heating time. The program then writes out the recommended heating time.
+
+Input Format:
+
+The first input is an integer which corresponds to the number of items. The second integer is a float which corresponds to the single item heating time.
+
+Output Format:
+
+Refer sample input and output for further formatting specifications.
+
+Note:All text in bold corresponds to input and the rest corresponds to output
+
+Sample Input and Output 1:
+
+Enter the number of items
+
+2
+
+Enter the single item heating time
+
+5.0
+
+The recommended heating time is 7.50
+
+ Sample Input and Output 2:
+
+Enter the number of items
+
+4
+
+Enter the single item heating time
+
+5.0
+
+Number of items is more
+
+solution:
+x=int(input("Enter the number of items\n"))
+y=float(input("Enter the single item heating time \n"))
+if x==2:
+    n=(50*y/100)+y
+    print("The recommended heating time is %.2f"% n)
+elif x==3:
+    n=2*Y
+    print("The recommended heating time is %.2f"% n)
+else:
+    print("Number of items is more")
+
