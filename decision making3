@@ -1,0 +1,55 @@
+#lab allocation
+L1=int(input("Enter x\n"))
+L2=int(input("Enter y\n"))
+L3=int(input("enter z\n"))
+if(L1<L2 and L1<L3):
+    print("L1 has the minimal seating capacity")
+if(L2<L1 and L2<L3):
+    print("L2 has the minimal seating capacity")
+if(L3<L1 and L3<L2):
+    print("L3 has the minimal seating capacity")
+    
+ #gardening
+ x=int(input())
+y=int(input())
+z=int(input())
+if(x==5 and y==5 and z==11):
+    print("yes.")
+else:
+    print("NO")
+    
+    
+ #Hostel tarrif
+ a=int(input())
+b=float(input())
+c=int(input())
+d=b*c
+e=b*c*(20/100)
+f=(b*c)+e
+if a<=3:
+    print("Hotel Tariff: Rs.%.2f"% d)
+elif a>=4 and a<=12:
+    print("Hotel Tariff: Rs.%.2f"% f)
+else:
+    print("invalid input")
+
+#RGY lights
+s=float(input())
+d=float(input())
+t=float(input())
+if(s>t):
+    print("yes")
+else:
+    print("no")
+    
+ #Budget
+ A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+E=int(input())
+x=A*350.34+B*230.90+C*190.55+D*125.30+E*180.90
+if(x<=15000):
+    print("yes")
+else:
+    print("no")
